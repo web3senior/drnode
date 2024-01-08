@@ -2,9 +2,9 @@
 
 ## Demo
 
-[https://dprofile.center](https://dprofile.center)
+[https://drnode.info](https://drnode.info)
 
-Discover users DIDs
+Issue VC for patients healthy data
 
 ## TODO
 
