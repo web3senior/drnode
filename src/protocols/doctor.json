@@ -1,0 +1,34 @@
+{
+  "protocol": "https://drchain.info/doctorv1/",
+  "published": true,
+  "types": {
+    "doctor": {
+      "schema": "https://drchain.info/schemas/doctorSchema",
+      "dataFormats": ["application/json"]
+    }
+  },
+  "structure": {
+    "doctor": {
+      "$actions": [
+        {
+          "who": "anyone",
+          "can": "read"
+        },
+        {
+          "who": "anyone",
+          "can": "write"
+        },
+        {
+          "who": "author",
+          "of": "doctor",
+          "can": "delete"
+        },
+        {
+          "who": "author",
+          "of": "doctor",
+          "can": "update"
+        }
+      ]
+    }
+  }
+}

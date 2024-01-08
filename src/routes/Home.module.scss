@@ -1,0 +1,30 @@
+.section {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+
+  input {
+    border-radius: 999px;
+    text-align: center;
+  }
+}
+
+.connectBtn {
+  svg {
+    width: 128px;
+  }
+}
+
+.container {
+row-gap: 2rem;
+}
+
+.didItemShimmer {
+  background-color: #e9e9e9;
+  height: 140px;
+  border-radius: var(--global-border-radius);
+}

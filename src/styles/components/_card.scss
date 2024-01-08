@@ -1,0 +1,30 @@
+.card {
+  position: relative;
+  background: var(--white);
+  border-radius: var(--global-border-radius);
+  padding: 6px;
+  border: 1px solid #EAEAFF;
+
+  &__header {
+    padding: 0.4rem  0;
+    font-size: 0.8rem;
+    color: #555;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom: 1px solid #edebe9;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+  }
+
+  &__body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem 0.5rem;
+  }
+
+  &[data-margin='auto'] {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}

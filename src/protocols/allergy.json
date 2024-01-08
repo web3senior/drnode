@@ -1,0 +1,34 @@
+{
+  "protocol": "https://drchain.info/v9/",
+  "published": true,
+  "types": {
+    "allergy": {
+      "schema": "https://drchain.info/schemas/allergySchema",
+      "dataFormats": ["application/json"]
+    }
+  },
+  "structure": {
+    "allergy": {
+      "$actions": [
+        {
+          "who": "anyone",
+          "can": "read"
+        },
+        {
+          "who": "anyone",
+          "can": "write"
+        },
+        {
+          "who": "author",
+          "of": "allergy",
+          "can": "delete"
+        },
+        {
+          "who": "author",
+          "of": "allergy",
+          "can": "update"
+        }
+      ]
+    }
+  }
+}

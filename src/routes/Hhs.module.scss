@@ -1,0 +1,39 @@
+@import './../styles/abstract//variables';
+
+.section {
+  padding-top: 1rem;
+  background-color: #f2f5fc;
+  height: 100%;
+  padding: 1rem;
+
+  select {
+    text-transform: capitalize;
+  }
+}
+
+.list {
+  gap: 1rem;
+}
+
+.links {
+  gap: 1rem;
+  
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 23.867px;
+    border: 0.597px solid #8fd6ff;
+    background: var(--White, #fff);
+
+    span {
+      font-size: 18px !important;
+    }
+  }
+}

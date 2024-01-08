@@ -1,0 +1,154 @@
+@import './../styles/abstract//variables';
+
+.section {
+  padding-top: 1rem;
+  background-color: #eff6fc;
+  height: 100%;
+  padding: 1rem;
+  figure {
+  }
+}
+.pfpImg {
+  width: 200px;
+  border-radius: 999px;
+}
+.header {
+  background: var(--white);
+  color: #2e2e2e;
+  padding: 0.7rem 1rem;
+
+  button {
+    background-color: #2c2c2c;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    width: 186px;
+    height: 40px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s all cubic-bezier(0.17, 0.17, 0, 1);
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  &__logo {
+    width: 25px;
+  }
+
+  .didLabel {
+    display: inline-block;
+    background-color: #ffec19;
+    padding: 0 0.2rem;
+    margin-right: 0.3rem;
+    font-weight: bold;
+    border-radius: var(--global-border-radius);
+  }
+}
+
+.nav {
+  position: fixed;
+  inset: 0;
+  width: 80vw;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 999;
+  isolation: isolate;
+  transform: translateX(100vw);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  figure {
+    img {
+      width: 80px;
+      margin: 0 auto;
+    }
+  }
+
+  ul {
+    flex: 1;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 1rem;
+
+    li {
+      &:first-child {
+      }
+
+      button {
+        all: unset;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 0.5rem;
+        cursor: pointer;
+
+        span {
+          &:first-child {
+            font-size: 2rem;
+          }
+
+          &:last-child {
+            font-size: 1.1rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+
+  small {
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+.dashboard {
+  gap: 1rem;
+  span {
+    font-size: 28px;
+  }
+}
+
+.links {
+  gap: 1rem;
+margin-top: 1rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+    height: 108px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 23.867px;
+    border: 0.597px solid #f68fff;
+    background: var(--White, #fff);
+    user-select: none;
+    
+    &:active {
+      transform: scale(0.9);
+    }
+
+    span {
+      &:first-child {
+        font-size: 2.4rem;
+        color: #827dff;
+        fill: #000;
+        filter: drop-shadow(3px 1px 0px #fee4f3);
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "protocol": "https://drchain.info/drugv1/",
+  "published": true,
+  "types": {
+    "drug": {
+      "schema": "https://drchain.info/schemas/drugSchema",
+      "dataFormats": ["application/json"]
+    }
+  },
+  "structure": {
+    "drug": {
+      "$actions": [
+        {
+          "who": "anyone",
+          "can": "read"
+        },
+        {
+          "who": "anyone",
+          "can": "write"
+        },
+        {
+          "who": "author",
+          "of": "drug",
+          "can": "delete"
+        },
+        {
+          "who": "author",
+          "of": "drug",
+          "can": "update"
+        }
+      ]
+    }
+  }
+}
