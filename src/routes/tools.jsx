@@ -312,6 +312,10 @@ export default function Profile({ title }) {
               <MaterialIcon name="face_4" />
               <span>Nurse</span>
             </div>
+            <div style={{ opacity: '.4' }}>
+              <MaterialIcon name="vaccines" />
+              <span style={{fontSize:'.8rem'}}>Bllod Donation</span>
+            </div>
           </div>
         </div>
       </section>
