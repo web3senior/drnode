@@ -221,12 +221,6 @@ export default function Profile({ title }) {
               <span>About us</span>
             </button>
           </li>
-          <li className="">
-            <button onClick={() => handleNavLink(`/feedback`)}>
-              <MaterialIcon name="feedback" />
-              <span>Feedback</span>
-            </button>
-          </li>
         </ul>
 
         <small>{`Version ${import.meta.env.VITE_VERSION}`}</small>
