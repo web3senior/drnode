@@ -4,6 +4,15 @@ This decentralized web5 application aims to empower patients to securely store a
 ## Demo
 https://drnode.info
 
+## Presentation
+https://youtu.be/jw0pSSnOEaE
+
+## Protocols
+- Allergy Protocol
+- Doctor Protocol
+- Drug Protocol
+- VC Protocol
+
 ## Motivation
 The healthcare industry's reliance on centralized data storage systems has raised concerns about data privacy, security, and patient control over their health information. This inspired the development of this decentralized solution to address these challenges and promote a more patient-centered healthcare ecosystem.
 
